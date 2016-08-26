@@ -1,0 +1,43 @@
+<resources>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/primary</item>
+
+    </style>
+
+    <style name="buttonTheme">
+        <!-- Centered buttons, all the same size, equal margins, all caps-->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@color/accent</item>
+        <item name="android:textColor">@color/icons</item>
+
+    </style>
+
+    <style name="textTheme">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">24dp</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+
+</resources>
